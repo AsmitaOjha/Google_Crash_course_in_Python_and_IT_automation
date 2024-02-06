@@ -14,6 +14,6 @@ dictionary: typing.Dict[str, int] = {"key1": 1, "key2": 2}
 # Define a variable of type set
 set_of_numbers: typing.Set[int] = {1, 2, 3}
 name : str = "Asmita's"
-mine : str = "Aary Captain"
+mine : str = "Company"
 print(name + mine)
 print(name , mine)
