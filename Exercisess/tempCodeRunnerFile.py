@@ -1,5 +1,3 @@
-def print_pattern(x):
-#     for x in range(x+1):
-#         print("*"*x)
 
-# print_pattern(3)
+# var="james"*2*3
+# print(var)
