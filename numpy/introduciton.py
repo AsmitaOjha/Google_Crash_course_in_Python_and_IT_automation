@@ -29,3 +29,18 @@ print('2nd element of 1st row',arr[0,1])
 print('5th element of 2nd row',arr[1,4])
 #Accessing 3D arrays
  
+#slicing
+arr = np.array([1,2,3,4,5,6,7])
+print(arr[1:5])
+#So, if you visualize the array [1, 2, 3, 4, 5, 6, 7], counting from the end, -1 refers to 7,
+#-2 refers to 6, -3 refers to 5, and so on.
+#Therefore, -3:-1 extracts elements 5 and 6.
+print(arr[-3:-1])
+#step value to determine the step of the slicing
+print(arr[1::2])
+#slicing 2-D arrays
+arr = np.array([[1,2,3,4,5],[6,7,8,9,10]])
+print(arr[1,1:4])
+#From both elements, slice index 1 to index 4 (not included),
+# this will return a 2-D array:
+print(arr[0:2,1:4])
